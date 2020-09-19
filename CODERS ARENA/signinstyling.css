@@ -1,0 +1,75 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(scenery.jpg);
+	background-size: cover;
+	height: 1000px;
+}
+
+
+	.container
+{
+    width: 450px;
+    height: 500px;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    padding: 60px 30px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    box-shadow: 8px 8px 50px #000;
+}
+
+
+h1{
+	text-align: center;
+	font-size: 30px;
+    font-weight: bold;
+}
+
+.container input{
+	width: 100%;
+	margin-bottom: 20px;
+	color: #000;
+}
+
+.container input[type=text], .container input[type=password],.container input[type=email]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	font-size: 16px;
+	opacity: 1;
+    color:#000;
+}
+
+.container input[type=submit]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #000;
+	color: #fff;
+	font-size: 14px;
+    font-weight: bold;
+  }
+
+  .container input[type=submit]:hover{
+  	cursor: pointer;
+  }
+
+input[type="email"]::-webkit-input-placeholder {
+color: #000; 
+}
+
+input[type="password"]::-webkit-input-placeholder {
+color: #000; 
+}
+
+input[type="text"]::-webkit-input-placeholder {
+color: #000; 
+}
+
